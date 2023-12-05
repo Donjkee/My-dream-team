@@ -1,38 +1,45 @@
 div {
-    text-align: center;
-    margin: 50px;
-  }
+  text-align: center;
+  margin: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
   
-  h1 {
-    color: #333;
-  }
-  
-  img {
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .developer p {
-    font-size: 16px;
-    font-weight: bold;
 }
-  
-  .developers-container {
-    display: flex;
-    justify-content: space-around;
+
+h1 {
+  color: #2c3e50; 
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.developer p {
+  font-size: 18px; 
+  font-weight: bold;
+  color: #34495e; 
+}
+
+.developers-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ecf0f1; 
+  padding: 20px; 
+  border-radius: 15px;
 }
 
 .developer {
-    text-align: center;
-    margin: 10px;
-    background-color: lightgray;
-    border-radius: 10px; 
-    padding: 15px; 
+  text-align: center;
+  margin: 10px;
+  background-color: #ecf0f1; 
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .developer img {
-    width: 150px;
-    height: 150px;
-    border-radius: 10%; 
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
 }
