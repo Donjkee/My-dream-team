@@ -13,3 +13,26 @@ div {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
+  .developer p {
+    font-size: 16px;
+    font-weight: bold;
+}
+  
+  .developers-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.developer {
+    text-align: center;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 10px; 
+    padding: 15px; 
+}
+
+.developer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%; 
+}
