@@ -1,4 +1,3 @@
-// home.component.spec.ts
 
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { HomeComponent } from './home.component';
@@ -28,3 +27,4 @@ describe('HomeComponent', () => {
     expect((divElement?.querySelector('h1'))?.textContent).toContain('DreamTeam');
   });
 });
+
